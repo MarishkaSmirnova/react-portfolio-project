@@ -1,0 +1,7 @@
+.ShoppingList form ol {
+	width: 200px;
+    margin: 10px auto;
+}
+.ShoppingList form ol li {
+	margin-top: 7px;
+}

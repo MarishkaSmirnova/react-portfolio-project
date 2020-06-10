@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito:700&display=swap" rel="stylesheet"');
+
+/* .App {
+  text-align: center;
+} */
+.App .TaskData ul  {
+	text-align:left
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Navbar {
+	background-color: #282c34;
+	padding:10px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.Navbar svg {
+	height: 35px;
+}
+.Navbar svg path {
+	color: white;
+}
+.Navbar ul {
+	display: flex;
+	list-style:none;
+}	
+.Navbar ul li {
+	text-decoration: none;
+	margin-left: 15px;
+	
+}
+.Navbar ul li a {
+	color:white;
+	text-decoration: none;
+}
+
+.AppMain {
+	text-align:center;
+	background-color: #fffaff;
+	margin: 0 auto;
+	min-height: 810px;
+}
+.AppMain h1 {
+	color:#8C04A4;
+	font-size:37px;
+}
+.AppMain h2 {
+	color:#FF7753;
+}
+.AppMain h3 {
+	color: #A226B8;
+	font-size: 22px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+}
+.AppMain .AllButtons {
+	margin-bottom: 20px;
+	font-family: 'Nunito',
+}
+.AppMain .projectButton {
+	background: #ea4c89;
+	padding: 10px 0px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: .02em;
+    vertical-align: middle;
+    cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	-webkit-appearance: none;
+	margin:10px;
+}
+/* .AppMain .projectButton:hover {
+	background-color:blue;
+} */
+/* .AppMain .projectButton:visited {
+	background-color:orange;
+} */
+.AppMain .projectButton a {
+	padding: 10px 12px;
+}
+.AppMain .projectButton a:hover {
+	background-color:orange;
+	border-radius: 4px;
+}
+
+.AppMain .projectButton a:focus {
+	background-color:orange;
+	/* border: 1px solid orange; */
+	border-radius: 4px;
+}
+
+.AppMain button a {
+	color: #fff;
+	text-decoration: none;
+}
+.AppMain .App {
+	border-radius: 30px;
+    box-shadow: 2px 4px 28px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-bottom: 50px;
+	animation: fadeIn 1s ease-in both;
+	margin-top:30px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+.TaskButton {
+	background-color: #FFB9A6;
+	color:white;
+	border-radius: 5px;
+	width: 96px;
+	height: 25px;
+	outline: none;
+	margin-bottom:15px;
+}
+.TaskData li {
+	text-align: left;
+	line-height: 1.4;
+}
+
+.regular-button {
+	border: 1px solid black;
+	/* padding: 5px 10px; */
+	border-radius: 10%;
+}

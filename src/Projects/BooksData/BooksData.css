@@ -1,0 +1,85 @@
+
+.booksData {
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+/* .TaskData li {
+	text-align: left;
+	line-height: 1.4;
+} */
+
+.booksData h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.booksData input {
+    width:200px;
+    height: 35px;
+    margin:10px;
+    border: 1px solid #FA709A;
+    border-radius: 15px;
+    background: transparent;
+}
+
+.booksData .SearchButton {
+    width:55px;
+    height: 35px;
+    border-radius: 15px;
+	border: 2px solid #FA709A;
+	color:white;
+	background-color: #FA709A;
+}
+.booksData a {
+	outline: none
+}
+.booksData .BooksList  {
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    padding:0;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.booksData .BooksList li {
+    min-width:800px;
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 8px 10px 10px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-bottom: 50px;
+    animation: fadeIn 1s ease-in both;
+}
+
+.booksData .BooksList li img {
+    margin:10px;
+    width:200px;
+}
+
+.booksData .BooksList li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.loadingMessage {
+    font-size: 40px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
