@@ -94,7 +94,7 @@ class App extends Component {
 						<Route path="/game" component={Game}/>
 						<Route path="/users" component={UsersList}/>
 						<Route>
-							404 Not Found
+							<Home/>
 						</Route>  
 					</Switch> 
 				</div>
